@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tabliczka z imieniem</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Ubuntu+Mono:400,700&amp;subset=latin-ext" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<h1 class="plate-title">Tabliczka z imieniem</h1>
+		<div id="js-form" class="plate-form">
+			<label id="js-label" class="plate-form-label" for="js-name">Podaj imię:</label>
+			<input id="js-name" class="plate-form-input" type="text" maxlength="15">
+			<button id="js-btn" class="btn plate-form-btn">Wyświetl koszt</button>
+		</div>
+		<ul id="js-board" class="plate-board hide"></ul>
+		<button id="js-reset-btn" class="hide"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Wróć</button>
+	</div>
+
+	<!-- JS Script -->
+	<script src="js/script.js"></script>
+</body>
+
+</html>
